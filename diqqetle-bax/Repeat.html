@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="one">
+<form action="get">
+<label class="userinfo" for="name">Name</label>
+<input  type="text" id="name" name="name">
+<br>
+<label class="userinfo" for="surname" >Surname</label>
+<input  type="text" id="surname" name="surname">
+<br>
+<label class="userinfo" for="age">Age</label>
+<input type="date" id="age" name="age">
+<br>
+<label class="userinfo" for="gender-male">Male</label>
+<input type="radio" id="gender-male" name="gender">
+<br>
+<label class="userinfo" for="gender-female">Female</label>
+<input type="radio" id="gender-female" name="gender">
+<hr class="hr">
+<span>Your education degree:</span>
+<select class="ed-ex" name="education" id="education">
+    <option value="">Please, select any ... </option>
+    <option value="School">School</option>
+    <option value="Bachelaur">Bachelaur`s Degree</option>
+    <option value="Master">Master`s Degree</option>
+    <option value="Doctoral">Doctoral degree</option>
+</select>
+<br>
+<label class="ed-ex" for="wexperience">Work Experience</label>
+<input type="number" name="work experience" id="wexperience">
+<hr>
+<label class="favcol-pass" for="color">Favourite color</label>
+<input type="color" id="color" name="color">
+<hr>
+<label class="favcol-pass" for="password">Password</label>
+<input style="color: green" type="password" id="password" name="password">
+<button type="submit">Send</button>
+</form>
+</div>
+</body>
+</html>
